@@ -1,5 +1,7 @@
 {
   "name": "todo",
+  "main": "server/index.js",
+  "proxy": "http://localhost:3001",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +12,10 @@
     "express-session": "^1.15.6",
     "massive": "^4.6.4",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^5.0.0"
   },
   "devDependencies": {
     "react-scripts": "1.1.0"
